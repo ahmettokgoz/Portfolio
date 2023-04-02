@@ -16,7 +16,7 @@ function Home2() {
         <Row>
           <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
-              LET ME <span className="purple"> INTRODUCE </span> MYSELF
+              KENDİMİ <span className="purple"> TANITAYIM </span> 
             </h1>
             <p className="home-about-body">
               I fell in love with programming and I have at least learnt
@@ -60,52 +60,52 @@ function Home2() {
         </Row>
         <Row>
           <Col md={12} className="home-about-social">
-            <h1>FIND ME ON</h1>
+            <h1>SOSYAL MEDYA HESAPLARIM</h1>
             <p>
-              Feel free to <span className="purple">connect </span>with me
+              Benimle <span className="purple">bağlantı </span>kurmaktan çekinmeyin
             </p>
-            <ul className="home-about-social-links">
-              <li className="social-icons">
-                <a
-                  href="https://github.com/soumyajit4419"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                >
-                  <AiFillGithub />
-                </a>
-              </li>
-              <li className="social-icons">
-                <a
-                  href="https://twitter.com/Soumyajit4419"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                >
-                  <AiOutlineTwitter />
-                </a>
-              </li>
-              <li className="social-icons">
-                <a
-                  href="https://www.linkedin.com/in/soumyajit4419/"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                >
-                  <FaLinkedinIn />
-                </a>
-              </li>
-              <li className="social-icons">
-                <a
-                  href="https://www.instagram.com/soumyajit4419"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour home-social-icons"
-                >
-                  <AiFillInstagram />
-                </a>
-              </li>
-            </ul>
+            <ul className="footer-icons">
+            <li className="social-icons">
+              <a
+                href="https://github.com/ahmettokgoz"
+                style={{ color: "white" }}
+                target="_blank" 
+                rel="noopener noreferrer"
+              >
+                <AiFillGithub />
+              </a>
+            </li>
+            <li className="social-icons">
+              <a
+                href="https://twitter.com/eyvahmett"
+                style={{ color: "white" }}
+                target="_blank" 
+                rel="noopener noreferrer"
+              >
+                <AiOutlineTwitter />
+              </a>
+            </li>
+            <li className="social-icons">
+              <a
+                href="https://www.linkedin.com/in/ahmettokgoz/"
+                style={{ color: "white" }}
+                target="_blank" 
+                rel="noopener noreferrer"
+              >
+                <FaLinkedinIn />
+              </a>
+            </li>
+            <li className="social-icons">
+              <a
+                href="https://www.instagram.com/eyvahmett"
+                style={{ color: "white" }}
+                target="_blank" 
+                rel="noopener noreferrer"
+              >
+                <AiFillInstagram />
+              </a>
+            </li>
+          </ul>
           </Col>
         </Row>
       </Container>
